@@ -110,6 +110,6 @@ socketIO.on('connection', (socket) => {
 
 
 
-http.listen(PORT, '192.168.3.155', () => {
+http.listen(PORT, 'https://chat-service-api.onrender.com', () => {
     console.log(`Server listening on ${PORT}`);
 });
