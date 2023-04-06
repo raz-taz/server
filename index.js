@@ -8,7 +8,7 @@ const http = require('http').Server(app);
 const cors = require('cors');
 const socketIO = require('socket.io')(http, {
     cors: {
-        origin: "lhttp://localhost:3000/"
+        origin: "https://razmania-chat.netlify.app/"
     }
 });
 const mysql = require('mysql')
