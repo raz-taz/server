@@ -8,7 +8,7 @@ const http = require('http').Server(app);
 const cors = require('cors');
 const socketIO = require('socket.io')(http, {
     cors: {
-        origin: "*"
+        origin: "localhost"
     }
 });
 const mysql = require('mysql')
