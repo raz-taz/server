@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser')
-const PORT = 4001;
+const PORT = process.env.PORT || 5000;
 const password = "password123"
 
 const http = require('http').Server(app);
